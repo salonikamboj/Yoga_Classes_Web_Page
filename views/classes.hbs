@@ -1,0 +1,40 @@
+<main id="classespage">
+    <h1>Our Classes</h1>
+    {{#if status}}
+    {{#each classes}}
+    {{#if this.Status}}
+    <section>
+        <div>
+            <img src="{{this.imageName}}.jpg" />
+        </div>
+        <div>
+            <p>class name: {{this.name}}</p>
+            <p>Length: {{this.classLength}} mins</p>
+            <p>price:{{ this.classPrice }}</p>
+            <form method="POST" action="/book/{{this.id}}">
+                <button>book now</button>
+            </form>
+        </div>
+    </section>
+    {{/if}}
+    {{/each}}
+    {{else}}
+    {{#each classes}}
+    {{#if this.Status}}
+    <section>
+        <div>
+            <img src="{{this.imageName}}.jpg" />
+        </div>
+        <div>
+            <p>class name: {{this.name}}</p>
+            <p>Length: {{this.classLength}} mins</p>
+            <p>price:{{ this.classPrice }}</p>
+            <form method="POST" action="/not-book">
+                <button>book now</button>
+            </form>
+        </div>
+    </section>
+    {{/if}}
+    {{/each}}
+    {{/if}}
+</main>
