@@ -1,0 +1,15 @@
+<main id="cartpage">
+    <h1>welcom to cart page</h1>
+    {{#each classes}}
+    <section>
+        <div>
+            <img src="{{this.imageName}}.jpg" />
+        </div>
+        <div>
+            <p>class name: {{this.name}}</p>
+            <p>Length: {{this.classLength}} mins</p>
+            <p>price:{{ this.classPrice }}</p>
+        </div>
+    </section>
+    {{/each}}
+</main>
