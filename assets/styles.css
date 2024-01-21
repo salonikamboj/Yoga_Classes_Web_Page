@@ -1,0 +1,122 @@
+header {
+    background-color: rgb(154, 192, 182);
+    border-bottom: rgb(154, 192, 182) solid;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul>li {
+    display: flex;
+}
+
+ul>li>a {
+    color: indigo;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main#loginpage {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#loginpage>form>input {
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 40px;
+    display: block;
+}
+
+#loginpage>form>button {
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: rgba(255, 166, 0, 0.772);
+    margin-top: 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 30px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+main#classespage {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#classespage>section {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    border: 1px solid black;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+#classespage>section>div>form>button {
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: rgba(255, 166, 0, 0.772);
+    margin-top: 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 30px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+main#cartpage {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#cartpage>section {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    border: 1px solid black;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+main#adminpage {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#adminpage>div {
+    text-align: left;
+    border: 1px solid black;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 20px;
+}
